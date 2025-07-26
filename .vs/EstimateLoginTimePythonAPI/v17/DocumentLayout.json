@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 300,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "app.py",
               "ToolTip": "C:\\Users\\qqthx\\source\\repos\\EstimateLoginTimePythonAPI\\app.py",
               "RelativeToolTip": "app.py",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwGgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-07-25T21:20:55.447Z",
               "EditorCaption": ""
