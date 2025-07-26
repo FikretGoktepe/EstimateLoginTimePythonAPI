@@ -101,4 +101,5 @@ if __name__ == '__main__':
     # Cache güncellenirken istek alýnabilmesi için iþlem arkaplanda yapýlýyor.
     t = threading.Thread(target=periodic_cache_update, daemon=True)
     t.start()
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
